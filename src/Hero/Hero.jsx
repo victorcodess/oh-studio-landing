@@ -2,7 +2,7 @@ import React from "react";
 
 const Hero = () => {
   return (
-    <section className="h-[50vh] flex flex-col pt-52 lg:pt-96 items-center justify-center">
+    <section className="h-[50vh] flex flex-col pt-[190px] lg:pt-96 items-center justify-center">
       <div className="flex items-center flex-col justify-center gap-[40px]">
         <h1 className="font-bold text-[36px] leading-[43.2px] md:leading-[57.6px] tracking-[0.2px] w-[85%] text-center text-black md:text-[48px] md:max-w-[800px] md:w-[75%] lg:text-[72px] lg:leading-[86.4px] lg:max-w-[900px]">
           A brand and product designer working with clients globally
