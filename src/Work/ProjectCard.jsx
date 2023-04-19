@@ -7,12 +7,12 @@ const ProjectCard = ({ img, title, link, video, available }) => {
         <img
           src={img}
           alt="project-image"
-          className="w-full h-[308px] md:h-[496px] rounded-xl justify-cente object-cover bg-cover bg-center"
+          className="w-full h-[308px] sm:h-[496px] rounded-xl justify-cente object-cover bg-cover bg-center"
         />
       ) : (
-        <div className="h-[308px] w-full md:h-[496px] rounded-xl overflow-hidden flex justify-center">
+        <div className="h-[308px] w-full sm:h-[496px] rounded-xl overflow-hidden flex justify-center">
           <video
-            className="max-w-none h-[308px] md:h-[496px] rounded-xl"
+            className="max-w-none h-[308px] sm:h-[496px] rounded-xl"
             autoPlay
             loop
             playsInline
