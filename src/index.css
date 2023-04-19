@@ -1,3 +1,13 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@font-face {
+  font-family: Neue Montreal;
+  src: url(./assets/fonts/NeueMontreal-Regular.otf);
+}
+
+html {
+  font-family: Neue Montreal;
+  font-weight: 500;
+}
