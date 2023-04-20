@@ -25,7 +25,6 @@ const Contact = () => {
     visible: {
       opacity: 1,
       transition: {
-        // delayChildren: 0.25,
         staggerChildren: 0.2,
       },
     },
