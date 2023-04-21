@@ -50,7 +50,7 @@ const Hero = () => {
   const child2Animation = {
     hidden: {
       opacity: 0,
-      y: `5em`,
+      y: `6em`,
     },
     visible: {
       opacity: 1,

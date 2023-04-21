@@ -14,29 +14,58 @@ const ProjectCard = ({ img, title, link, video, available }) => {
           isHovered ? "opacity-100" : "opacity-0"
         } transition-opacity ease-in-out duration-300`}
       >
-        <h4 className="text-white text-[14px] lg:text-[18px]">{title}</h4>
+        <div>
+          <h4 className="text-white text-[14px] lg:text-[18px]">{title}</h4>
+          <h4
+            className={`${
+              available ? "hidden" : "inline"
+            } text-white/50 text-[14px] lg:text-[18px]`}
+          >
+            Coming Soon
+          </h4>
+        </div>
         <a href={link} target="">
           <div
-            className="bg-white w-[40px] h-[40px] lg:w-[50px] lg:h-[50px] rounded-full cursor-pointer flex items-center justify-center transition-transform duration-300"
+            className={`${
+              available ? "bg-white" : "bg-black"
+            } w-[40px] h-[40px] lg:w-[50px] lg:h-[50px] rounded-full cursor-pointer flex items-center justify-center transition-transform duration-300`}
             style={{
               transform: isHovered ? "translate(0)" : "translate(-20px, 20px)",
             }}
           >
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              width="20"
-              height="20"
-              viewBox="0 0 24 24"
-              fill="none"
-              stroke="rgb(0, 0, 0)"
-              strokeWidth="2"
-              strokeLinecap="round"
-              strokeLinejoin="round"
-              className=""
-            >
-              <line x1="7" y1="17" x2="17" y2="7"></line>
-              <polyline points="7 7 17 7 17 17"></polyline>
-            </svg>
+            {available ? (
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="20"
+                height="20"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="rgb(0, 0, 0)"
+                strokeWidth="2"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                className=""
+              >
+                <line x1="7" y1="17" x2="17" y2="7"></line>
+                <polyline points="7 7 17 7 17 17"></polyline>
+              </svg>
+            ) : (
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="18"
+                height="18"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="rgb(255, 255, 255)"
+                strokeWidth="2"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                className=""
+              >
+                <rect x="3" y="11" width="18" height="11" rx="2" ry="2"></rect>
+                <path d="M7 11V7a5 5 0 0 1 10 0v4"></path>
+              </svg>
+            )}
           </div>
         </a>
       </div>
