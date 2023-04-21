@@ -71,7 +71,6 @@ const Hero = () => {
         aria-hidden="true"
         initial="hidden"
         animate={ctrls}
-        // variants={bodyAnimation}
       >
         <motion.h1
           className="font-bold text-[36px] leading-[43.2px] md:leading-[57.6px] tracking-[0.2px] w-[85%] text-center text-black md:text-[48px] md:max-w-[800px] md:w-[75%] lg:text-[72px] lg:leading-[86.4px] lg:max-w-[900px]"
