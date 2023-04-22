@@ -11,11 +11,9 @@ const Footer = () => {
           height="10"
           preserveAspectRatio="xMidYMid slice"
           style={{
-            width: "20%",
-            height: "50%",
             transform: "translate3d(0px, 0px, 0px)",
           }}
-          className=""
+          className="w-[30%] h-[30%] lg:w-[20%] lg:h-[20%]"
         >
           <defs>
             <clipPath id="__lottie_element_2">
@@ -24,7 +22,7 @@ const Footer = () => {
           </defs>
           <g clipPath="url(#__lottie_element_2)">
             <g
-              transform="matrix(0.9999204874038696,0.012609667144715786,-0.012609667144715786,0.9999204874038696,400,400)"
+              transform="translate(400 400)"
               opacity="1"
               style={{ display: "block" }}
             >
@@ -35,9 +33,26 @@ const Footer = () => {
                 strokeMiterlimit="4"
                 stroke="rgb(0,0,0)"
                 strokeOpacity="1"
-                strokeWidth="81.23671547931261"
+                strokeWidth="20"
                 d=" M-243.26100158691406,-243.22900390625 C-243.26100158691406,-243.22900390625 243.26100158691406,243.22900390625 243.26100158691406,243.22900390625 M-243.22999572753906,243.25999450683594 C-243.22999572753906,243.25999450683594 243.22999572753906,-243.26100158691406 243.22999572753906,-243.26100158691406 M-344.0010070800781,0.02199999988079071 C-344.0010070800781,0.02199999988079071 344.0010070800781,-0.02199999988079071 344.0010070800781,-0.02199999988079071 M-0.02199999988079071,-344 C-0.02199999988079071,-344 0.02199999988079071,344 0.02199999988079071,344"
-              />
+              >
+                <animate
+                  attributeName="stroke-width"
+                  values="20; 20; 80; 80; 180; 180; 20; 20;"
+                  keyTimes="0; 0.2; 0.333; 0.4; 0.533; 0.6; 0.8; 1"
+                  dur="3s"
+                  repeatCount="indefinite"
+                />
+                <animateTransform
+                  attributeType="xml"
+                  attributeName="transform"
+                  type="rotate"
+                  dur="3s"
+                  repeatCount="indefinite"
+                  keyTimes="0; 0.2; 0.333; 0.4; 0.533; 0.6; 0.8; 1"
+                  values="0 0 0; 0 0 0; 45 0 0; 45 0 0; 90 0 0; 90 0 0; 135 0 0; 135 0 0;"
+                />
+              </path>
             </g>
           </g>
         </svg>
