@@ -5,7 +5,7 @@ const ProjectCard = ({ img, title, link, video, available }) => {
 
   return (
     <div
-      className="w-full project-card relative flex flex-col items-start justify-center gap-2"
+      className="w-full cursor-pointer project-card relative flex flex-col items-start justify-center gap-2"
       onMouseEnter={() => setIsHovered(true)}
       onMouseLeave={() => setIsHovered(false)}
     >
