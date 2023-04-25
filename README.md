@@ -1,5 +1,5 @@
 
-# Personal Portfolio Website — v1
+# OH.STUDIO Landing — Replica
 
 My name is Victor Williams, and I’m a front-end engineer and product designer based in Lagos, Nigeria. My passion lies in creating software that solves real-world problems and positively impacts people’s lives.
 
