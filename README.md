@@ -1,33 +1,30 @@
 
 # OH.STUDIO Landing — Replica
 
-My name is Victor Williams, and I’m a front-end engineer and product designer based in Lagos, Nigeria. My passion lies in creating software that solves real-world problems and positively impacts people’s lives.
-
-I created this website to showcase my work. I’m always striving to create something unique and innovative. I love experimenting with new technologies and staying up-to-date with the latest trends in the tech world.
+In this project, I recreated the landing page of [Oli Harris](https://twitter.com/olvhrs)'s portfolio website. This was a challenge from [Frontend Practice.](https://oh-studio-landing.vercel.app/)  The project involves building a responsive website for a design agency called OH Studio. The website should have a clean and modern design, with a homepage showcasing the agency's work, services, and contact.
 
 
 ## Tech Stack
 
-**Client:** React, Next.js, TypeScript, TailwindCSS, Framer Motion, GSAP.
+**Client:** React, TailwindCSS, Framer Motion.
 
 **Hosting:** Vercel.
 
 
 ## Screenshots & Demo
 
-![App Screenshot](https://user-images.githubusercontent.com/84178696/228673320-95dc5eee-8c21-41c3-ada4-cd7948d5da26.png)
+<!-- ![App Screenshot](https://user-images.githubusercontent.com/84178696/234654012-b619a065-d774-45b0-a5d4-03863cc5d34e.png) -->
 
-![App Screenshot](https://user-images.githubusercontent.com/84178696/228673498-ad33b834-58b3-43e5-b184-b136d01c6e1a.png)
+![App Screenshot](https://user-images.githubusercontent.com/84178696/234655264-63346e7a-e515-4066-a475-37e14b6da4b1.png)
 
-![App Screenshot](https://user-images.githubusercontent.com/84178696/228675919-70180c2c-c888-423d-ae85-409ce4645b8b.png)
 
-[View Live Demo](https://folio-v1-victorcodess.vercel.app/)
+[View Live Demo](https://oh-studio-landing.vercel.app/)
 ## Run Locally
 
 Clone the project
 
 ```bash
-  git clone https://github.com/victorcodess/folio-v1
+  git clone https://github.com/victorcodess/oh-studio-landing
 ```
 
 Go to the project directory
@@ -49,13 +46,9 @@ Start the server
 ```
 
 
-## Contributing & Feedback
+## Learnings
 
-I won't be taking any contributions or pull requests, as this is a **Personal Portfolio.**
-
-Nonetheless, your feedback are always welcome!
-
-If you have any feedback or questions, please feel free to reach out to me at victor.williams@stu.cu.edu.ng
+In this project I learnt a couple of new things, especially CSS and JavaScript animations. The toughest part was recreating the hover animations on the project cards and also animating the SVG stroke-width and translate properties. I also used react-intersection-observer to animate the text fading in on both page load and while scrolling. I used CSS backdrop filters to create the blurred glass effect on the fixed navigation menu.
 
 
 ## License
